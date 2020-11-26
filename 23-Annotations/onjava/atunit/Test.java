@@ -6,8 +6,8 @@ import java.lang.annotation.*;
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME) // 注解信息保存时长
 @Documented
-@Inherited
-@Repeatable(Tests.class)
+@Inherited // 子类可以继承父类的注解，注解之间没有继承关系
+@Repeatable(Tests.class) // 元素命名为value则不用赋值
 public @interface Test {
     // 不含元素则为标记注解
     // 注解元素只能是 基本类型 String Class enum Annotation 以上类型的数组
