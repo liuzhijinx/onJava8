@@ -1,5 +1,5 @@
 package annotations;
-import src.onjava.atunit.Test;
+import onjava.atunit.Test;
 
 public class Testable {
     public void execute() {
