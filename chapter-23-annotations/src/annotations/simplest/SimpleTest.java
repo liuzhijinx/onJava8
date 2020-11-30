@@ -2,8 +2,17 @@
 // Test the "Simple" annotation
 // {java annotations.simplest.SimpleTest}
 
-// D:\workspace\IdeaProjects\onJava8\out\production\onJava8\annotations\simplest
-// javac -processor annotations.simplest.SimpleProcessor D:\workspace\IdeaProjects\onJava8\23-Annotations\annotations\simplestSimpleTest.java
+// D:\workspace\IdeaProjects\onJava8\chapter-23-annotations\target\classes>
+// javac -processor annotations.simplest.SimpleProcessor D:\workspace\IdeaProjects\
+// onJava8\chapter-23-annotations\src\annotations\simplest\SimpleTest.java
+// or
+// D:\workspace\IdeaProjects\onJava8\chapter-23-annotations\src>
+// javac -processor annotations.simplest.SimpleProcessor
+// D:\workspace\IdeaProjects\onJava8\chapter-23-annotations\src
+// \annotations\simplest\SimpleTest.java
+
+// the classes which '-processor' need is in 'target'
+//  it is hard to understand the structure of project
 package annotations.simplest;
 
 @Simple
