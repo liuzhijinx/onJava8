@@ -5,6 +5,7 @@
 // D:\workspace\IdeaProjects\onJava8\out\production\onJava8\annotations\simplest
 // javac -processor annotations.simplest.SimpleProcessor D:\workspace\IdeaProjects\onJava8\23-Annotations\annotations\simplestSimpleTest.java
 package annotations.simplest;
+
 @Simple
 public class SimpleTest {
     @Simple

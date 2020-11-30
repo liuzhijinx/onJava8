@@ -3,6 +3,7 @@ package annotations;
 import java.util.*;
 import java.util.stream.*;
 import java.lang.reflect.*;
+
 public class UseCaseTracker {
     public static void
     trackUseCases(List<Integer> useCases, Class<?> cl) {

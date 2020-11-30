@@ -1,3 +1,5 @@
+package test.src;
+
 // patterns/SingletonPattern.java
 interface Resource {
     int getValue();
